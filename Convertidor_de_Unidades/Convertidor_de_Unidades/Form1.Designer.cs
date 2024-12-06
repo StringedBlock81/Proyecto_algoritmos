@@ -44,9 +44,9 @@
             this.btnArea.Font = new System.Drawing.Font("Didot", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnArea.Image = ((System.Drawing.Image)(resources.GetObject("btnArea.Image")));
             this.btnArea.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnArea.Location = new System.Drawing.Point(12, 23);
+            this.btnArea.Location = new System.Drawing.Point(12, 54);
             this.btnArea.Name = "btnArea";
-            this.btnArea.Size = new System.Drawing.Size(97, 48);
+            this.btnArea.Size = new System.Drawing.Size(169, 48);
             this.btnArea.TabIndex = 0;
             this.btnArea.Text = "Área";
             this.btnArea.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -57,9 +57,9 @@
             this.btnDistancia.Font = new System.Drawing.Font("Didot", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDistancia.Image = ((System.Drawing.Image)(resources.GetObject("btnDistancia.Image")));
             this.btnDistancia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDistancia.Location = new System.Drawing.Point(12, 77);
+            this.btnDistancia.Location = new System.Drawing.Point(12, 108);
             this.btnDistancia.Name = "btnDistancia";
-            this.btnDistancia.Size = new System.Drawing.Size(142, 60);
+            this.btnDistancia.Size = new System.Drawing.Size(169, 60);
             this.btnDistancia.TabIndex = 1;
             this.btnDistancia.Text = "Distancia";
             this.btnDistancia.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -70,7 +70,7 @@
             this.btnTemepratura.Font = new System.Drawing.Font("Didot", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTemepratura.Image = ((System.Drawing.Image)(resources.GetObject("btnTemepratura.Image")));
             this.btnTemepratura.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTemepratura.Location = new System.Drawing.Point(12, 143);
+            this.btnTemepratura.Location = new System.Drawing.Point(12, 174);
             this.btnTemepratura.Name = "btnTemepratura";
             this.btnTemepratura.Size = new System.Drawing.Size(169, 53);
             this.btnTemepratura.TabIndex = 2;
@@ -83,9 +83,9 @@
             this.btnVolumen.Font = new System.Drawing.Font("Didot", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolumen.Image = ((System.Drawing.Image)(resources.GetObject("btnVolumen.Image")));
             this.btnVolumen.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVolumen.Location = new System.Drawing.Point(12, 202);
+            this.btnVolumen.Location = new System.Drawing.Point(12, 233);
             this.btnVolumen.Name = "btnVolumen";
-            this.btnVolumen.Size = new System.Drawing.Size(142, 59);
+            this.btnVolumen.Size = new System.Drawing.Size(169, 59);
             this.btnVolumen.TabIndex = 3;
             this.btnVolumen.Text = "Volumen";
             this.btnVolumen.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -96,9 +96,9 @@
             this.btnMasa.Font = new System.Drawing.Font("Didot", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMasa.Image = ((System.Drawing.Image)(resources.GetObject("btnMasa.Image")));
             this.btnMasa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMasa.Location = new System.Drawing.Point(12, 267);
+            this.btnMasa.Location = new System.Drawing.Point(12, 298);
             this.btnMasa.Name = "btnMasa";
-            this.btnMasa.Size = new System.Drawing.Size(109, 60);
+            this.btnMasa.Size = new System.Drawing.Size(169, 60);
             this.btnMasa.TabIndex = 4;
             this.btnMasa.Text = "Masa";
             this.btnMasa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -109,9 +109,9 @@
             this.btnData.Font = new System.Drawing.Font("Didot", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnData.Image = ((System.Drawing.Image)(resources.GetObject("btnData.Image")));
             this.btnData.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnData.Location = new System.Drawing.Point(12, 333);
+            this.btnData.Location = new System.Drawing.Point(12, 364);
             this.btnData.Name = "btnData";
-            this.btnData.Size = new System.Drawing.Size(97, 40);
+            this.btnData.Size = new System.Drawing.Size(169, 40);
             this.btnData.TabIndex = 5;
             this.btnData.Text = "Data";
             this.btnData.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -122,9 +122,9 @@
             this.btnVelocidad.Font = new System.Drawing.Font("Didot", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVelocidad.Image = ((System.Drawing.Image)(resources.GetObject("btnVelocidad.Image")));
             this.btnVelocidad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVelocidad.Location = new System.Drawing.Point(12, 379);
+            this.btnVelocidad.Location = new System.Drawing.Point(12, 410);
             this.btnVelocidad.Name = "btnVelocidad";
-            this.btnVelocidad.Size = new System.Drawing.Size(142, 46);
+            this.btnVelocidad.Size = new System.Drawing.Size(169, 46);
             this.btnVelocidad.TabIndex = 6;
             this.btnVelocidad.Text = "Velocidad";
             this.btnVelocidad.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -133,11 +133,14 @@
             // btnTiempo
             // 
             this.btnTiempo.Font = new System.Drawing.Font("Didot", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTiempo.Location = new System.Drawing.Point(12, 514);
+            this.btnTiempo.Image = ((System.Drawing.Image)(resources.GetObject("btnTiempo.Image")));
+            this.btnTiempo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTiempo.Location = new System.Drawing.Point(12, 462);
             this.btnTiempo.Name = "btnTiempo";
-            this.btnTiempo.Size = new System.Drawing.Size(88, 31);
+            this.btnTiempo.Size = new System.Drawing.Size(169, 48);
             this.btnTiempo.TabIndex = 7;
             this.btnTiempo.Text = "Tiempo";
+            this.btnTiempo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnTiempo.UseVisualStyleBackColor = true;
             // 
             // Form1
